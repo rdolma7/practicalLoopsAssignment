@@ -11,6 +11,14 @@ for(i=1; i<=100; i++){
     console.log(i)
 }
 }
+console.log("END")
 
-//Part2 Prime Time
+//Part 2: Prime Time
+for (i = 2; i <= 20; i++) {
+    if(i === 3 || i === 2) {
+      console.log(`${i} is a prime number`);
+    }else if(i % 2 !== 0 && i % 3 !== 0 && i % i === 0 && i % 1 === 0)  {
+      console.log(`${i} is a prime number`);
+    }
+  }
 
